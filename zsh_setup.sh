@@ -21,8 +21,8 @@ else
     echo "$NEW_PLUGINS" >> "$ZSHRC"
 fi
 
-# Optional: set theme to powerlevel10k
-sed -i 's/^ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' "$ZSHRC"
+# # Optional: set theme to powerlevel10k
+# sed -i 's/^ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' "$ZSHRC"
 
 echo "Zsh plugins updated. Please restart your terminal or run 'source ~/.zshrc'."
 
